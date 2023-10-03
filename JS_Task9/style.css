@@ -230,14 +230,10 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: space-around;
+                    justify-content: space-evenly;
                 }
                 
-                .s7-article {}
-                
                 .s7-img {
-                    margin-top: 25px;
-                    margin-left: 150px;
                     width: 43.467px;
                     height: 30.854px;
                 }
@@ -247,12 +243,9 @@
                     font-family: Lato;
                     font-size: 19.96px;
                     font-weight: 400;
-                    margin-top: 27px;
-                    margin-left: 110px;
                 }
                 
-                .s7-text {
-                    margin-top: 14px;
+                .s7-subtitle {
                     width: 347.82px;
                     height: 32.85px;
                     color: #FBFBFB;
