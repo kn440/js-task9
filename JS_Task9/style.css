@@ -336,3 +336,44 @@
                     font-weight: 400;
                     line-height: normal;
                 }
+                
+                .footer-container {
+                    width: 375px;
+                    height: 113px;
+                    flex-shrink: 0;
+                    background-color: #222224;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .footer-link {
+                    margin-top: 43px;
+                    width: 31.451px;
+                    height: 32px;
+                    flex-shrink: 0;
+                    background-color: #FFF;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .footer-link:nth-child(2) {
+                    background-color: #F16D7F;
+                }
+                
+                .footer-svg:hover path {
+                    fill: blue;
+                }
+                
+                .footer-text {
+                    width: 375px;
+                    height: 30px;
+                    color: #FBFBFB;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-align: center;
+                    background-color: #222224;
+                }
